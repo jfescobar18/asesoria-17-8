@@ -1,3 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 main {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #555;
+    margin: 0;
+}
+
+#cuenta {
+    font-weight: bold;
+    font-size: 48px;
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#nombres {
+    text-align: left;
 }
